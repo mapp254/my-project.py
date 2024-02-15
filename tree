@@ -1,0 +1,20 @@
+def draw_christmas_tree(tree_height):
+    for i in range(tree_height):
+        spaces = " " * (tree_height - i - 1)
+        stars = "*" * (2 * i + 1)
+        print(f"{spaces}{stars}")
+
+    # Draw the tree trunk
+    trunk_width = tree_height // 3
+    trunk_height = tree_height // 3
+
+    for _ in range(trunk_height):
+        trunk_spaces = " " * (tree_height - trunk_width // 2)
+        trunk = "|" * trunk_width
+        print(f"{trunk_spaces}{trunk}")
+
+# Set the height of the Christmas tree
+tree_height = int(input("Enter the height of the Christmas tree: "))
+
+# Draw the Christmas tree
+draw_christmas_tree(tree_height)

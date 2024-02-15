@@ -1,0 +1,17 @@
+# Integers and floats
+num1 = 10
+num2 = 3.14
+
+# Strings
+message = "Hello, Python!"
+
+# Booleans
+is_true = True
+
+# Lists
+fruits = ["apple", "banana", "orange"]
+
+# Dictionaries
+person = {"name": "Alice", "age": 30}
+print("num1" + "num2")
+print(person)

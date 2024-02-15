@@ -1,0 +1,4 @@
+# For loop
+fruits = ["apple" , "banna" , "oranges" , "makadamia" ] 
+for fruit in fruits:
+    print(fruit)
